@@ -3,12 +3,12 @@
     <MenuButton>More</MenuButton>
     <MenuItems>
       <MenuItem v-slot="{ active }">
-        <a :class='{ "bg-blue-500": active }' href="/account-settings">
+        <a :class="{ 'bg-blue-500': active }" href="/account-settings">
           Account settings
         </a>
       </MenuItem>
       <MenuItem v-slot="{ active }">
-        <a :class='{ "bg-blue-500": active }' href="/account-settings">
+        <a :class="{ 'bg-blue-500': active }" href="/account-settings">
           Documentation
         </a>
       </MenuItem>
@@ -20,18 +20,18 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
 
 export default defineComponent({
-  name: 'App',
-    components: {
-      Menu,
-      MenuButton,
-      MenuItems,
-      MenuItem,
-    },
-})
+  name: "App",
+  components: {
+    Menu,
+    MenuButton,
+    MenuItems,
+    MenuItem,
+  },
+});
 </script>
 
 <style>
