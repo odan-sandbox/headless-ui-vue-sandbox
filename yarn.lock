@@ -20,6 +20,11 @@
     "@babel/helper-validator-identifier" "^7.12.11"
     to-fast-properties "^2.0.0"
 
+"@headlessui/vue@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.1.0.tgz#d8f729d06aef29794c5e29b078aad56b105b94a6"
+  integrity sha512-mGHepcWdReCfWVfLIVP6cwhoKpZmN3WsQS9g/+PIjdmUDqpZgRFv+V87VtjVK2fOOqzwoO5y0nWiDIAyveDYLg==
+
 "@vitejs/plugin-vue@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.2.2.tgz#b0038fc11b9099f4cd01fcbf0ee419adda417b52"
