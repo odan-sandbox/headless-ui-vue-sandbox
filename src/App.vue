@@ -1,15 +1,18 @@
 <template>
   <TryMenu />
+  <TryListbox />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import TryMenu from "./components/try-menu.vue";
+import TryListbox from "./components/try-listbox.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     TryMenu,
+    TryListbox,
   },
 });
 </script>
